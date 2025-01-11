@@ -25,7 +25,7 @@
       max-width: 500px; /* Limit the size on large screens */
       height: auto; /* Maintain aspect ratio */
       border-radius: 50%;
-      padding: 2%; /* Add padding for spacing */
+      padding: 1%; /* Add padding for spacing */
       overflow: visible;
       display: flex;
       justify-content: center;
@@ -43,12 +43,11 @@
       background-size: cover;
       border-radius: 50%;
       z-index: 0;
-      transform: rotate(0deg);
-      transition: transform 2s ease-in-out;
+    
     }
 
     .chart-container:hover .chart-background {
-      transform: rotate(360deg); /* Rotate background on hover */
+      * Rotate background on hover */
     }
 
     canvas {
@@ -63,7 +62,7 @@
     /* Mobile-specific adjustments */
     @media (max-width: 768px) {
       .chart-container {
-        padding: 10%; /* Increase padding for better spacing on smaller screens */
+        padding: 1%; /* Increase padding for better spacing on smaller screens */
       }
     }
   </style>
@@ -97,7 +96,7 @@
           height: 90vw; /* Maintain aspect ratio */
           max-height: 280px; /* Limit height on large screens */
           border-radius: 50%;
-          padding: 5%; /* Default padding */
+          padding: 1%; /* Default padding */
           overflow: visible;
           display: flex;
           justify-content: center;
